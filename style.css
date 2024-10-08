@@ -29,6 +29,7 @@ p{
 
 *{
     margin: 0;
+    font-family: Arial;
 }
 header{
     height: 70px;
@@ -42,4 +43,64 @@ header{
 }
 body{
     background-color: #f0ece2;
+}
+
+.navigationbar{
+    height: 70px;
+    display: flex;
+}
+#home{
+   margin-top: 15px;   
+}
+#blog{
+    margin-top: 15px;   
+ }
+ #about{
+    margin-top: 15px;   
+ }
+ #contact{
+    margin-top: 15px;   
+ }
+
+
+
+
+.navhome{
+    /* margin-left: 100px; */
+    /* background-color: black; */
+    width: 1000px;
+    height: 45px;
+    margin-top: 10px;
+    border: 2px transparent;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+ 
+    
+}
+
+#home:hover{
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    /* position: fixed; */
+    box-sizing: border-box;
+}
+#blog:hover{
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    /* position: fixed; */
+    box-sizing: border-box;
+}
+#about:hover{
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    /* position: fixed; */
+    box-sizing: border-box;
+}
+#contact:hover{
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    /* position: fixed; */
+    box-sizing: border-box;
 }
