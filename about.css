@@ -115,13 +115,22 @@ body{
     width: 25%;
     margin-left: 20%;
     margin-top: 2%;
+    
 }
 #details{
     padding-top: 5%;
     font-size: 1rem;
-    font-weight: 100;
-    font-family: times;
+    font-weight: 300;
+    font-family: system-ui;
 
+}
+#mypic{
 
+   margin-left: 5%;
+   height: 50vh;
+   margin-top: 3.6%;
 
+}
+.sameline{
+    display: flex;
 }
