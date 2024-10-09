@@ -4,7 +4,7 @@
 }
 header{
     height: 9.33vh; 
-    background-color: #dfd3c3;
+    background-color: #c0c0c0b1;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -14,7 +14,7 @@ header{
 }
 
 body{
-    background-color: #f0ece2;
+    background-color: #ffffff;
     margin-top: 10.66vh;
 }
 

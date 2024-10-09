@@ -4,7 +4,7 @@
 }
 header{
     height: 9.33vh; 
-    background-color: #201c16;
+    background-color: #c0c0c0b1;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -14,7 +14,7 @@ header{
 }
 
 body{
-    background-color: #676262;
+    background-color: #ffffff;
     margin-top: 10.66vh;
 }
 
@@ -127,7 +127,7 @@ body{
  #game2{
     height: 8vh;
     width: 18vh;
-    background-color: #000;
+    background-color: #c0c0c0b1;
     color: #fff;
      display: flex;
     justify-content: center;
@@ -167,7 +167,7 @@ body{
  #travel2{
     height: 8vh;
     width: 18vh;
-    background-color: #000;
+    background-color: #c0c0c0b1;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -193,7 +193,7 @@ body{
  #eat2{
     height: 8vh;
     width: 18vh;
-    background-color: #000;
+    background-color: #c0c0c0b1;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -201,5 +201,10 @@ body{
     text-align: center;  
    
  }
-
+#travel2:hover, #game2:hover , #eat2:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 255, 0.66);
+    color: black;
+    font-size: larger;
+}
   
