@@ -3,116 +3,102 @@
     font-family: Arial;
 }
 header{
-    height: 70px;
- 
+    height: 9.33vh; 
     background-color: #dfd3c3;
     position: fixed;
     z-index: 1000;
-
-    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
-
+    box-shadow: 0 0.53vh 0.8vh rgba(0, 0, 0, 0.1); 
 }
+
 body{
     background-color: #f0ece2;
-    margin-top: 80px;
+    margin-top: 10.66vh;
 }
 
 .navigationbar{
-    height: 70px;
-    width: 1500px;
-    height: 45px;
-    margin-top: 10px;
+    height: 9.33vh; 
+    width: 1500px; 
+    height: 6vh; 
+    margin-top: 1.33vh; 
     border: 2px transparent;
     position: fixed;
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
-    position: fixed;
-   
- 
 }
+
 #home{
-   margin-top: 15px;   
+   margin-top: 2vh;
 }
 #blog{
-    margin-top: 15px;   
- }
- #about{
-    margin-top: 15px;   
- }
- #contact{
-    margin-top: 15px;   
- }
-
+    margin-top: 2vh;
+}
+#about{
+    margin-top: 2vh;
+}
+#contact{
+    margin-top: 2vh; 
+}
 
 .navhome{
-    margin-left: -200px;
-    
+    margin-left: -26.66vh; 
     width: 1000px;
-    height: 45px;
+    height: 6vh; 
     border: 2px transparent;
     position: fixed;
     box-sizing: border-box;
     display: flex;
     justify-content: space-evenly;
     overflow: hidden;
- 
 }
 
-
 #home:hover{
-    border: 2px solid white;
-    border-radius: 0.5rem;
+    border: 0.26vh solid white; 
+    border-radius: 0.66vh; 
     cursor: pointer;
     box-sizing: border-box;
 }
 #blog:hover{
-    border: 2px solid white;
-    border-radius: 0.5rem;
+    border: 0.26vh solid white; 
+    border-radius: 0.66vh;
     box-sizing: border-box;
     cursor: pointer;
 }
 #about:hover{
-    border: 2px solid white;
-    border-radius: 0.5rem;
-    
+    border: 0.26vh solid white; 
+    border-radius: 0.66vh; 
     box-sizing: border-box;
     cursor: pointer;
 }
 #contact:hover{
-    border: 2px solid white;
-    border-radius: 0.5rem;
-    
+    border: 0.26vh solid white; 
+    border-radius: 0.66vh; 
     box-sizing: border-box;
     cursor: pointer;
-    
 }
+
 #search{
-    border-radius: 1rem;
+    border-radius: 1.33vh;
     border: none;
     width: 300px;
-    
 }
+
 #sicon{
-    margin-top: 15px;
-    margin-left: -110px;
+    margin-top: 2vh; 
+    margin-left: -14.66vh;
 }
+
 .icons {
-
-    margin-top: 15px;
-    padding-right: 105px;
-    margin-left: 1000px;
+    margin-top: 2vh; 
+    padding-right: 14vh; 
+    margin-left: 133.33vh; 
     color: #1e1b1bb7;
-
-
 }
 
 .icons:hover{
     cursor: pointer;
-
 }
+
