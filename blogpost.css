@@ -4,7 +4,7 @@
 }
 header{
     height: 9.33vh; 
-    background-color: #c0c0c0b1;
+    background-color: #cec6c68b;
     position: fixed;
     z-index: 1000;
     top: 0;
@@ -91,16 +91,6 @@ body{
     margin-left: -14.66vh;
 }
 
-.icons {
-    margin-top: 2vh; 
-    padding-right: 14vh; 
-    margin-left: 133.33vh; 
-    color: #1e1b1bb7;
-}
-
-.icons:hover{
-    cursor: pointer;
-}
 
 .maindiv{
     display: flex;
@@ -127,13 +117,14 @@ body{
  #game2{
     height: 8vh;
     width: 18vh;
-    background-color: #c0c0c0b1;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000;
      display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     transition: all 0.3s ease;
+    border-radius: 1rem;
    
  }
  p{
