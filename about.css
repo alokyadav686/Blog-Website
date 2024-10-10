@@ -1,27 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 *{
     margin: 0;
-    font-family: Arial;
+    font-family: Arial, sans-serif;
 }
+
 header{
     height: 9.33vh; 
-    background-color: #c0c0c0b1;
+    background-color: rgba(192, 192, 192, 0.7);
     position: fixed;
     z-index: 1000;
     top: 0;
     width: 100%;
-    z-index: 1000; 
     box-shadow: 0 0.53vh 0.8vh rgba(0, 0, 0, 0.1); 
 }
 
 body{
-    background-color: #ffffff;
+    background-color: #f4f4f4;
     margin-top: 10.66vh;
 }
 
 .navigationbar{
-    height: 9.33vh; 
-    width: 1500px; 
-    height: 6vh; 
+    height: 6vh;
+    width: 100%;
     margin-top: 1.33vh; 
     border: 2px transparent;
     position: fixed;
@@ -30,23 +31,25 @@ body{
     justify-content: space-evenly;
 }
 
-#home{
-   margin-top: 2vh;
-}
-#blog{
+#home, #blog, #about, #contact{
     margin-top: 2vh;
+    /* background-color: #ffffff; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 15px;
 }
 #about{
-    margin-top: 2vh;
+    background-color: #f4f4f4;
+    color: red;
 }
-#contact{
-    margin-top: 2vh; 
-}
-
 .navhome{
-    margin-left: -26.66vh; 
-    width: 1000px;
-    height: 6vh; 
+    margin-left: -26.66%;
+    width: 66.67%;
+    height: 6vh;
     border: 2px transparent;
     position: fixed;
     box-sizing: border-box;
@@ -55,75 +58,23 @@ body{
     overflow: hidden;
 }
 
-#home:hover{
+#home:hover, #blog:hover, #about:hover, #contact:hover{
     border: 0.26vh solid white; 
     border-radius: 0.66vh; 
     cursor: pointer;
     box-sizing: border-box;
-}
-#blog:hover{
-    border: 0.26vh solid white; 
-    border-radius: 0.66vh;
-    box-sizing: border-box;
-    cursor: pointer;
-}
-#about:hover{
-    border: 0.26vh solid white; 
-    border-radius: 0.66vh; 
-    box-sizing: border-box;
-    cursor: pointer;
-}
-#contact:hover{
-    border: 0.26vh solid white; 
-    border-radius: 0.66vh; 
-    box-sizing: border-box;
-    cursor: pointer;
 }
 
 #search{
     border-radius: 1.33vh;
     border: none;
-    width: 300px;
+    width: 20%;
 }
 
 #sicon{
     margin-top: 2vh; 
-    margin-left: -14.66vh;
+    margin-left: -14.66%;
 }
-/* 
-
-#detail{
-
-    font-weight: normal;
-    font-family: serif;
-    margin-left: 20%;
-    margin-top: 10%;
-
-}
-
-.containing{
-    width: 25%;
-    margin-left: 20%;
-    margin-top: 2%;
-    
-}
-#details{
-    padding-top: 5%;
-    font-size: 1rem;
-    font-weight: 300;
-    font-family: system-ui;
-
-}
-#mypic{
-
-   margin-left: 5%;
-   height: 50vh;
-   margin-top: 3.6%;
-
-}
-.sameline{
-    display: flex;
-} */
 
 #detail{
     font-weight: bold;
@@ -204,13 +155,14 @@ body{
     text-align: center;
 }
 
-.icon1 i, .icon2 i, .icon3 i{
+.icon1 a, .icon2 a, .icon3 a{
     font-size: 2rem;
     color: #3b5998;
     transition: color 0.3s;
+    text-decoration: none;
 }
 
-.icon1 i:hover, .icon2 i:hover, .icon3 i:hover{
+.icon1 a:hover, .icon2 a:hover, .icon3 a:hover{
     color: #dc205e;
 }
 
