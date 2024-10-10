@@ -78,80 +78,100 @@ body{
 }
 
 .maindiv{
+    width: 97%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap; 
-   
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    gap: 20px;
+    padding: 20px;
+}
+.game , .eat, .travel{
+    /* display: flex; */
+    width: 28%;
+    /* flex-direction: column;  */
+    background-color: #f3f3f3;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* margin: 10%, 10% auto; */
+    padding: 15px;
+    transition: transform 0.3s ease;
+    
+
+}
+.game:hover , .travel:hover , .eat:hover{
+    transform: scale(1.05);
 }
 
- .game{
-    
-   
-
+.gamepic{
     background-image: url("pexels-umutart-28786770\ \(1\).jpg"); 
-    
  }
  
- #game2, #travel2, #eat2{
-    height: 8vh;
-    width: 18vh;
-    background-color: #ffffff;
-    color: #000;
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    transition: all 0.3s ease;
-    border-radius: 1rem;
-   
- }
- p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
- }
- #game1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
- }
-
- .travel{
-  
+.travelpic{  
    
     background-image: url("pexels-photo-1008155.jpg"); 
     
  }
- .eat,.travel,.game{
 
-       
-    height: 70vh;
-    width: 70vh;   
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
- }
-
- .eat{
+.eatpic{
 
     background-image: url("pexels-photo-958545.jpg"); 
      
  }
  
-#travel2:hover, #game2:hover , #eat2:hover{
-    transform: scale(1.1);
-    background-color: rgba(0, 0, 255, 0.66);
-    color: black;
-    font-size: larger;
-    cursor: pointer;
+
+.gamepic, .eatpic, .travelpic{
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
-  
+
+li{
+    padding: 10px;
+}
+
+
+
+@media (max-width: 768px){
+    .game,.travel,.eat{
+        width: 100%;
+    }
+}
+
+
+.abtgame, .abttravel, .abteat{
+    width: 95%;
+    padding: 30px;
+    background-color: #f3f3f3;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 3% auto;
+}
+#gamehead,#travelhead,#eathead{
+    padding: 20px;
+    font-weight: 600;
+    text-decoration: underline 1.7px solid #333  ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+h2{
+    color: #333;
+    
+     margin: 10px auto  ;
+}
+p{
+    padding: 10px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+a{
+    text-decoration: none;
+}
