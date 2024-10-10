@@ -133,6 +133,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: all 0.3s ease;
    
  }
  p{
@@ -173,6 +174,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    transition: all 0.3s ease;
    
  }
 
@@ -199,6 +201,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;  
+    transition: all 0.3s ease;
    
  }
 #travel2:hover, #game2:hover , #eat2:hover{
@@ -206,5 +209,6 @@ body{
     background-color: rgba(0, 0, 255, 0.66);
     color: black;
     font-size: larger;
+    cursor: pointer;
 }
   
