@@ -90,7 +90,7 @@ body{
     margin-top: 2vh; 
     margin-left: -14.66vh;
 }
-
+/* 
 
 #detail{
 
@@ -123,4 +123,99 @@ body{
 }
 .sameline{
     display: flex;
+} */
+
+#detail{
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+}
+
+.sameline{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.containing{
+    max-width: 600px;
+    margin-right: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#details{
+    padding: 10px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+#mypic{
+    border-radius: 10px;
+    height: auto;
+    max-width: 300px;
+    margin-left: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+     
+@media (max-width: 1000px){
+    .sameline{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .containing{
+        margin-bottom: 20px;
+    }
+
+    #mypic{
+        max-width: 100%;
+        
+    }
+}
+
+.socialmedias{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+
+
+.icon1, .icon2, .icon3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon1 i, .icon2 i, .icon3 i{
+    font-size: 2rem;
+    color: #3b5998;
+    transition: color 0.3s;
+}
+
+.icon1 i:hover, .icon2 i:hover, .icon3 i:hover{
+    color: #dc205e;
+}
+
+.txt{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333; 
 }

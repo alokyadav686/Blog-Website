@@ -17,7 +17,7 @@
     }
 
     body{
-        background-color: #ffffff;
+        background-color: #f4f4f4;
         margin-top: 10.66vh;
     }
 
@@ -130,8 +130,9 @@
     
 
     hr{
-        margin: 3% 10%; 
+        margin: 3% 10% auto; 
         border: 0.5px solid #ddd; 
+        height: 2px;
     }
     
     .contactdetails{
@@ -176,4 +177,41 @@
     #ph, #lo, #em{
         margin: 0;
         font-weight: bold;
+    }
+
+    .socialmedias{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #f8f9fa;
+        padding: 20px;
+        gap: 20px;
+        border-radius: 10px;
+    }
+    
+    
+    
+    .icon1, .icon2, .icon3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .icon1 i, .icon2 i, .icon3 i{
+        font-size: 2rem;
+        color: #3b5998;
+        transition: color 0.3s;
+    }
+    
+    .icon1 i:hover, .icon2 i:hover, .icon3 i:hover{
+        color: #dc205e;
+    }
+    
+    .txt{
+        margin-top: 10px;
+        font-size: 1rem;
+        color: #333; 
     }
