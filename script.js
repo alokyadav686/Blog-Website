@@ -1,20 +1,12 @@
-// let s= document.querySelector("p");
-// let btn = document.querySelector("#one");
-// s.innerText="HELLO";
 
-// let turn=true;
+let menubtn = document.querySelector("#menuline");
 
+let uparWala= document.querySelector(".cntt");
 
-// btn.addEventListener("click", () =>{
+menubtn.addEventListener("click", ()=>{
 
-    
-//     if(turn===true){
-//     s.innerText="you are cutie";
-//         turn=false;
-// }
-// else if(turn===false){
-//     s.innerText="hello";
-//     console.log(turn);
-//     turn=true;
-// }
-// });
+    console.log("clickedd");
+
+    uparWala.classList.remove("hide");
+
+})

@@ -97,6 +97,7 @@ a{
         justify-content: center;
         align-items: center;
         color: #333;
+        
     }
 
     .cnt{
@@ -107,6 +108,7 @@ a{
         border-radius: 1.33vw;
     border: none;
     }
+    
     
 }
 
@@ -266,4 +268,45 @@ color: #dc205e;
     font-size: 3vw;
     font-weight: 600;
     color: #333;
+}
+
+
+.cntt{
+
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 6vw;
+    margin-left: 60%;
+   
+    margin-top: 8%;
+    letter-spacing: 1px;
+    line-height: 1.4;
+}
+
+#home1,#blog1, #about1,#contact2{
+
+    background-color: rgba(51, 51, 51, 0.37);
+    color: #f8f9fa;
+    font-weight: 600;
+    padding: 12px 24px;
+    margin: 2% auto;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    transition: all 0.3s ease;
+}
+
+
+
+#home1:hover, #blog1:hover, #about1:hover, #contact2:hover{
+    background-color: rgba(51, 51, 51, 0.6);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+
 }
