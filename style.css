@@ -139,7 +139,7 @@ a{
 
 .content1{
     color: #fff;
-    z-index: 100;
+    z-index: 20;
     position: relative;
 }
 
@@ -251,4 +251,19 @@ transition: color 0.3s;
 
 .icon1 a:hover, .icon2 a:hover, .icon3 a:hover{
 color: #dc205e;
+}
+
+.title p{
+    color: #ff0c0c;
+}
+
+.mid{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+    font-size: 3vw;
+    font-weight: 600;
+    color: #333;
 }
