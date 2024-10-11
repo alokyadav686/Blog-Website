@@ -3,15 +3,14 @@ let menubtn = document.querySelector("#menuline");
 
 let uparWala= document.querySelector(".cntt");
 
-menubtn.addEventListener("click", (ignoringmenubtn)=>{
+menubtn.addEventListener("click", ()=>{
 
     console.log("clickedd");
 
     uparWala.classList.remove("hide");
-    ignoringmenubtn .stopPropagation();
 
 
 })
-document.body.addEventListener("mouseover", ()=>{
-    uparWala.classList.add("hide");
-})
+// document.body.addEventListener("mouseover", ()=>{
+//     uparWala.classList.add("hide");
+// })
