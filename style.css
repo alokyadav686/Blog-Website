@@ -11,7 +11,7 @@ header{
     height: 9.33vh; 
     background-color: rgba(192, 192, 192, 0.6);
     position: fixed;
-    z-index: 1000;
+    z-index: 1001;
     top: 0;
     width: 100%;
     /* box-shadow: 0 0.53vh 0.8vh rgba(0, 0, 0, 0.1);  */
@@ -122,13 +122,12 @@ a{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .content1{
     color: #fff;
     z-index: 20;
-    position: relative;
 }
 
 .content1 h1{
@@ -158,7 +157,7 @@ a{
     background-color: #ffffff;
     margin: 5% auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     overflow: hidden;
@@ -264,7 +263,7 @@ color: #dc205e;
     flex-direction: column;
     font-size: 6vw;
     margin-left: 60%;
-   
+   background-color: #ff0c0c;
     margin-top: 8%;
     letter-spacing: 1px;
     line-height: 1.4;
@@ -272,7 +271,7 @@ color: #dc205e;
 
 #home1,#blog1, #about1,#contact2{
 
-    background-color: rgba(51, 51, 51, 0.37);
+    /* background-color: #333; */
     color: #f8f9fa;
     font-weight: 600;
     padding: 12px 24px;
